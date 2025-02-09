@@ -163,6 +163,7 @@
   #hero {
     height: 720px;
     display: grid;
+    grid-auto-flow: row;
     grid-template-columns: 1fr 1fr;
     /* We're not going to use automatic template columns, because we need to know when the columns is go below. So we can exchange the order of the element */
     align-items: center;
@@ -172,10 +173,11 @@
     font-size: 3rem;
     font-weight: 700;
     margin: 0.5rem 0 1rem;
+    color: white;
   }
   
   .hero-name span {
-    color: var(--primaryIconColor) !important;
+    color: black ;
   }
   
   .hero-right img {
@@ -185,6 +187,10 @@
   .hero-right {
     display: flex;
     justify-content: center;
+  }
+
+  .deskripsi{
+    color: #000;
   }
   
   /* Services Section */
